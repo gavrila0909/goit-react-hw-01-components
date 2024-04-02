@@ -1,69 +1,70 @@
 .profile {
-	display: flex;
-	flex-direction: column;
-    background-color: white;
-    align-items: center;
-    width: 30%;
-    height: 350px;
-    margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  width: 30%;
+  height: 350px;
+  margin: 60px auto;
 }
 .description {
-    width: 100%;
-    box-sizing: border-box;
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:15px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 .avatar {
-	width: 30%;
-	border-radius: 50%;
+  width: 30%;
+  border-radius: 50%;
 }
 .name {
-    font-weight: bold;
-    font-size: 24px;
-    margin: 0px;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
 }
-.tag, .location {
-    color: rgb(138, 133, 133);
-    font-size: 16px;
-    margin: 0px;
+.tag,
+.location {
+  color: rgb(138, 133, 133);
+  font-size: 16px;
+  margin: 0px;
 }
 .stats {
-	list-style-type: none;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	flex-direction: row;
-    box-sizing: border-box;
-    width: 100%;
-    background-color: rgb(212, 214, 229);
-    position: relative;
-   padding: 0px;
-    bottom: 0px;
-    margin: 0px; 
-    border-top: 1px solid grey;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgb(212, 214, 229);
+  position: relative;
+  padding: 0px;
+  bottom: 0px;
+  margin: 0px;
+  border-top: 1px solid grey;
 }
 .stats li:nth-child(1),
 .stats li:nth-child(2) {
   border-right: 1px solid grey;
 }
 .stats li {
-    padding: 20px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: calc(100% / 3);
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
 }
-.stats li .label{
-    color: rgb(138, 133, 133);
-    font-size: 16px;
+.stats li .label {
+  color: rgb(138, 133, 133);
+  font-size: 16px;
 }
-.stats li .quantity{
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
+.stats li .quantity {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
 }
